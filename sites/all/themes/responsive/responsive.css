@@ -1,0 +1,182 @@
+/* Tablet */
+
+@media (max-width: 768px) {
+
+    body::before {
+        content: "Tablet media query (<768px) fired";
+        font-weight: bold;
+        display: block;
+        height: 20px;
+        text-align: center;
+        background: rgba(255,255,0,0.9);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 99;
+    }
+    
+
+    .container_12 .grid_6 {
+		float: none;
+		display: inline-block;
+		width: 98%;
+        }
+        
+    .container_12 .grid_3,
+    .mygridview .grid_3 {
+		float: left;
+		width: 48.0%;
+        }
+        
+    #breadcrumb {
+        display: none;
+    }
+    
+    #header {
+        margin-bottom: 20px; 
+    }
+    
+    .front #content .col-1,
+    .front #content .col-2,
+    .front #content .col-3,
+    .front #content .col-4 {
+        float: none;
+        width: 48.0%;
+        margin-bottom: 3%;
+		display: inline-block;
+		min-height: 260px;
+		vertical-align: top;
+    }
+    
+    #blackline {
+        display: none;
+    }
+    
+    .front #content {
+    top: -90px;
+    }
+    
+    .view-id-frontpage_texts .views-field-title {
+        font-size: 1.3em;
+    }
+    
+    .front #content .col-1 .field-content,
+    .front #content .col-2 .field-content,
+    .front #content .col-3 .field-content,
+    .front #content .col-4 .field-content {
+        padding: 2%;
+    }
+
+}
+
+
+/* Mobile */
+@media (max-width: 480px) {
+
+    body::before {
+        content: "Mobile media query (<480px) fired";
+        font-weight: bold;
+        display: block;
+        height: 20px;
+        text-align: center;
+        background: rgba(255,255,0,0.9);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 99;
+    }
+    
+    body {
+        font-size: 90%;
+        line-height: 120%;
+    }
+    
+    .view-id-index_giant_picture img {
+        content: url("http://test.zsoltpapp.com/sites/all/themes/responsive/images/rosefield_small.jpg");
+    }
+    
+
+    .container_12 .grid_3,
+    .container_12 .grid_6,
+    .container_12 .grid_12,
+    #rozsakert-top-wrapper .grid_8,
+    #rozsakert-top-wrapper .grid_4 {
+		float: none;
+		display: block;
+		width: 100%;
+		margin: 0 auto;
+		/*background-color: #ede6e6;*/
+        }
+        
+    .node-type-page h1 {
+        font-size: 160%;
+    }
+    
+    .view-velemenyek-blokk {
+        display: none;
+    }
+    
+        
+    #logo {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }    
+    
+    #site-name,
+    #breadcrumb {
+        display: none;
+    }
+    
+    .front #content .col-1 .field-content,
+    .front #content .col-2 .field-content,
+    .front #content .col-3 .field-content,
+    .front #content .col-4 .field-content {
+        padding: 1%;
+    }
+    
+    .front #content .col-1,
+    .front #content .col-2,
+    .front #content .col-3,
+    .front #content .col-4 {
+        float: none;
+        width: 98%;
+        min-height: 150px;
+        margin-bottom: 3%;
+		vertical-align: top;
+    }
+    
+    .front #content {
+    top: -70px;
+    }
+    
+    .front #footer {
+        top: -50px;
+    }
+}
+
+/* Desktop */
+
+@media (min-width: 940px) {
+    
+        body::before {
+        margin-top: 30px;
+        content: "Desktop media query (>940px) fired";
+        font-weight: bold;
+        display: block;
+        height: 20px;
+        text-align: center;
+        background: rgba(255,255,0,0.9);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 99;
+        }
+    
+}

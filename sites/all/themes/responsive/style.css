@@ -1,0 +1,246 @@
+img, embed, object, video {
+    max-width: 100%;
+}
+
+body {
+    font-size: 100%;
+    line-height: 1.6875;
+}
+
+#navigation h2 {
+    display: none;
+}
+
+
+
+
+/* -------------- Front page content ----------------- */
+
+.front #content .col-1,
+.front #content .col-2,
+.front #content .col-3,
+.front #content .col-4 {
+    background-color: white;
+    text-align: center;
+    -moz-box-shadow: 0 0 5px gray;
+    -webkit-box-shadow: 0 0 5px gray;
+    -o-box-shadow: 0 0 5px gray;
+    box-shadow: 0 0 5px gray;
+    min-height: 348px;
+    display: inline-block;
+}
+
+.front #content .col-1 .field-content,
+.front #content .col-2 .field-content,
+.front #content .col-3 .field-content,
+.front #content .col-4 .field-content {
+    padding: 4%;
+}
+
+
+.front #content .col-1 .views-field-field-elvalaszto .field-content,
+.front #content .col-2 .views-field-field-elvalaszto .field-content,
+.front #content .col-3 .views-field-field-elvalaszto .field-content,
+.front #content .col-4 .views-field-field-elvalaszto .field-content {
+    padding: 0;
+}
+
+.front #content .col-1 .views-field-field-tovabb-link .field-content,
+.front #content .col-2 .views-field-field-tovabb-link .field-content,
+.front #content .col-3 .views-field-field-tovabb-link .field-content,
+.front #content .col-4 .views-field-field-tovabb-link .field-content {
+    padding: 0;
+    font-size: 0.8em;
+}
+
+.views-field-field-tovabb-link a {
+    padding: 2px 10px 2px 10px;
+    color: white;
+    background: #a90329; /* Old browsers */
+    background: -moz-linear-gradient(top,  #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a90329), color-stop(44%,#8f0222), color-stop(100%,#6d0019)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+    border-radius: 5px;
+}
+
+.view-id-frontpage_texts .views-field-title {
+    font-weight: bold;
+    font-size: 1.6em;
+    margin-top: 6%;
+}
+
+.view-id-frontpage_texts .col-1 {
+    border-top: 7px solid #26838d;
+}
+
+.view-id-frontpage_texts .col-2 {
+    border-top: 7px solid #ab5f62;
+}
+
+.view-id-frontpage_texts .col-3 {
+    border-top: 7px solid #829348;
+}
+
+.view-id-frontpage_texts .col-4 {
+    border-top: 7px solid #ffd77a;
+}
+
+/* -------------- Szomolyai tartalmak nezet ----------------- */
+
+.galleriacimek {
+    font-weight: bold;
+}
+
+.galeriabevezeto {
+    font-size: 0.8em;
+    line-height: 1.6em;
+}
+
+
+.mygridview .views-row {
+    background-color: white;
+    margin-bottom: 10%;
+    padding-top: 0.6%;
+    -moz-box-shadow: 0 0 5px gray;
+    -webkit-box-shadow: 0 0 5px gray;
+    -o-box-shadow: 0 0 5px gray;
+    box-shadow: 0 0 5px gray;
+}
+
+.mygridview .field-content {
+    padding: 0 3% 0 3%;
+}
+
+.mygridview img {
+    margin-top: 2%;
+}
+
+/* -------------- Webform ----------------- */
+
+.webform-client-form input[type="text"],
+.webform-client-form input[type="email"] {
+    width: 45%;
+    padding: 0;
+    margin: 0;
+}
+
+.webform-client-form .form-select {
+    width: 25%;
+    display: inline-block;
+}
+
+.webform-client-form .form-item {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.webform-client-form .webform-component-textfield,
+.webform-client-form .webform-component-email {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* -------------- Footer ----------------- */
+
+#footer {
+    border-top: 1px solid gray;
+    text-align: center;
+    font-size: 1em;
+}
+
+#footer .fb,
+#footer .plus,
+#footer .you {
+    margin: 0 10px 0 10px;
+    padding: 0;
+}
+
+a[href^="tel:"]:before {
+    content: "\260E";
+    display: inline-block;
+    margin-right: 0.5em;
+    
+}
+
+.tel,
+a[href^="tel:"]:before {
+    color: tomato;
+}
+
+
+/* -------------- Rozsakert blokkok ----------------- */
+
+.nyitva {
+    position: absolute;
+    bottom: 10%;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background: #a9db80; /* Old browsers */
+    background: -moz-linear-gradient(top,  #a9db80 0%, #96c56f 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a9db80), color-stop(100%,#96c56f)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #a9db80 0%,#96c56f 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #a9db80 0%,#96c56f 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #a9db80 0%,#96c56f 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #a9db80 0%,#96c56f 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9db80', endColorstr='#96c56f',GradientType=0 ); /* IE6-9 */
+    color: black;
+}
+
+.nyitva p {
+    margin: 0;
+}
+
+.rozsakertrows,
+#rozsakert-middle-wrapper-ketto {
+    text-align: center;
+}
+
+.velemenycim {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+
+.views-field-field-velemeny {
+    font-size: .80em;
+    font-style: italic;
+}
+
+.velemenyiro {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.apartmancim {
+    margin-top: 5%;
+}
+
+.page-node-14 #four-column-wrapper {
+    text-align: center;
+}
+
+.terkep {
+    content: url("http://test.zsoltpapp.com/sites/all/themes/responsive/images/mapicon.png");
+}
+
+/* -------------- Kalo imre page ----------------- */
+
+.view-id-kalo_videok img {
+    float: left;
+    margin-right: 10px;
+}
+
+.view-id-kalo_videok .row-1,
+.view-id-kalo_videok .row-2,
+.view-id-kalo_videok .row-3 {
+    margin-bottom: 4%;
+    display: inline-block;
+    vertical-align: top;
+}

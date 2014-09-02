@@ -1,0 +1,193 @@
+
+/* Video */
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container .iframe,
+.videp-container .object,
+.video-container .embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#logo {
+    float: left;
+}
+
+#header {
+    margin-bottom: 10px;
+}
+
+#header h1 {
+    float: left; 
+    font-weight: bold; 
+    vertical-align: middle;
+}
+
+#page-wrapper{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#giant-section {
+    height: auto;
+
+}
+
+/* -------------- Site menu ----------------- */
+
+#blackline {
+    background: #45484d; /* Old browsers */
+    background: -moz-linear-gradient(top,  #45484d 0%, #000000 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#45484d), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #45484d 0%,#000000 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #45484d 0%,#000000 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #45484d 0%,#000000 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #45484d 0%,#000000 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+    height: 28px;
+    z-index: 999;
+    -moz-box-shadow: 0 0 5px black;
+    -webkit-box-shadow: 0 0 5px black;
+    -o-box-shadow: 0 0 5px black;
+    box-shadow: 0 0 5px black;
+    position: fixed;
+    width: 100%;
+}
+
+#blackline-container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sitemenu li {
+    display: inline-block;
+}
+
+#sitemenu li a {
+    display: inline-block;
+    color: white;
+    font-size: 0.8em;
+    padding: 0 10px 0 10px;
+}
+
+#sitemenu {
+    float: left;
+}
+
+.blacksitemenu .foglalas {
+    background: #f29385; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f29385 0%, #f4734b 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f29385), color-stop(100%,#f4734b)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #f29385 0%,#f4734b 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #f29385 0%,#f4734b 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #f29385 0%,#f4734b 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #f29385 0%,#f4734b 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f29385', endColorstr='#f4734b',GradientType=0 ); /* IE6-9 */
+}
+
+.foglalas {
+    font-weight: bold;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    margin-left: 10px;
+    text-shadow: 0 1px 1px #4d4d4d;
+}
+
+
+
+/* -------------- Social icons ----------------- */
+
+#social {
+    height: 40px;
+    position: relative;
+    z-index: 100;
+
+}
+
+.fb, .plus, .you {
+    margin-top: 3px;
+    padding: 5px 10px 0 10px;
+}
+
+.fb {
+    content: url("http://test.zsoltpapp.com/sites/all/themes/responsive/images/Facebook-icon.png");
+}
+
+.plus {
+    content: url("http://test.zsoltpapp.com/sites/all/themes/responsive/images/Google-Plus-icon.png");
+}
+
+.you {
+    content: url("http://test.zsoltpapp.com/sites/all/themes/responsive/images/YouTube-icon.png");
+}
+
+
+.node-type-page #content,
+.page-node-20 #content {
+    width: 100%;
+    text-align: center;
+}
+
+/* -------------- All wrappers ----------------- */
+/*
+.mywrapper {
+    display: block;
+    clear: both;
+    overflow: auto;
+}
+*/
+.mywrapper_content {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+
+/* -------------- Rozsakert layout ----------------- */
+
+
+/* -------------- Four column ----------------- */
+
+/*
+#column-one,
+#column-two,
+#column-three,
+#column-four {
+    background-color: yellow;
+    height: 100px;
+}
+*/
+
+.front #content {
+    top: -130px;
+}
+
+.not-front #content {
+    top: 0;
+}
+
+/* -------------- Footer ----------------- */
+
+.front #footer {
+    top: -100px;
+}
+
+.not-front #footer {
+    top: 0;
+}
+
+.front #footer .fb, /*cimlapon a footerben megjeleno social ikonok letiltasa */
+.front #footer .plus,
+.front #footer .you {
+    display: none;
+}

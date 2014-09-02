@@ -1,0 +1,47 @@
+name = Responsive
+description = Drupal 7 responsive theme
+version = 1.0
+core = 7.x
+engine = phptemplate
+
+stylesheets[all][] = style.css
+stylesheets[all][] = layout.css
+stylesheets[all][] = base.css
+stylesheets[all][] = grid.css
+stylesheets[all][] = responsive.css
+
+;SCRIPTS
+scripts[] = assets/js/lib/jquery.fitvids.js
+scripts[] = assets/js/custom.js
+
+
+regions[giant_section] = Giant section
+regions[header] = Header
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[rozsakert_top_big] = Rozsakert top big
+regions[rozsakert_top_small] = Rozsakert top small
+regions[rozsakert_middle_one] = Rozsakert middle one
+regions[rozsakert_middle_two] = Rozsakert middle two
+regions[rozsakert_middle_three] = Rozsakert middle three
+regions[rozsakert_middle_one_ketto] = Rozsakert middle 2 one
+regions[rozsakert_middle_two_ketto] = Rozsakert middle 2 two
+regions[rozsakert_middle_three_ketto] = Rozsakert middle 2 three
+regions[sidebar_first] = Left sidebar
+regions[sidebar_second] = Right sidebar
+regions[column_one] = Column One
+regions[column_two] = Column Two
+regions[column_three] = Column Three
+regions[column_four] = Column four
+regions[footer] = Footer
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
